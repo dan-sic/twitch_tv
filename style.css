@@ -1,0 +1,161 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://us.v-cdn.net/6025034/uploads/editor/ky/8vxopl9jblq5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 30px auto;
+  background-color: #F8EEE7;
+}
+
+.head {
+  text-align: center;
+}
+
+.title {
+  background-image: url(https://img.esportnow.pl/Na2-ZBrZBS3r6Nh0KnKGb_A0-BQ=/768x0/smart/https://esportnow.pl/wp-content/uploads/2016/07/twitch.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0;
+  min-height: 200px;
+}
+
+.title h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  border: none;
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #F4DECB;
+  transition: .2s;
+  outline: none;
+  border-right: 1px solid #fff;
+
+}
+
+.nav button:hover {
+  background-color: rgb(104, 104, 155);
+}
+
+.search {
+  margin: 15px 0;
+  min-width: 50%;
+  padding: 5px 5px 5px 25px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+
+}
+
+.fa-search {
+  color: grey;
+  margin-right: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  transition: .2s;
+}
+
+.channel:hover {
+  background-color: rgb(104, 104, 155);
+}
+
+.alert {
+  display: none;
+  text-align: center;
+  padding: 40px;
+}
+
+.channel:nth-of-type(2) {
+  border-top: 1px solid #fff;
+}
+
+.name a {
+  color: black;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.name a:hover {
+  border-bottom: 2px solid black;
+}
+
+.channel .content {
+  max-width: 80%;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.channel .content span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.channel .logo {
+  height: 70px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.icon-online {
+  color: rgb(8, 99, 8);
+  margin: 10px;
+}
+
+.icon-offline {
+  color: rgb(158, 27, 27);
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+
+  .title {
+    max-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .title {
+    max-height: 100px;
+  }
+}
+
+
+
+
+
+
